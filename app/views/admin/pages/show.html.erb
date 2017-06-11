@@ -1,0 +1,7 @@
+<header class="page-header">
+  <%= link_to t(:delete), [:admin,  @page], method: :delete, data: {confirm: t(:confirm)}, class: 'btn btn-danger pull-right' unless @page.protected? %>
+  <h1><%= icon :file %> <%= @page.title %> <%= span_lock if @page.protected? %> <small>
+  <%= link_to t(:preview), page_path(@page), target: '_blank' , class: 'btn btn-link' %></small></h1>
+</header>
+
+<%= render 'form' %>

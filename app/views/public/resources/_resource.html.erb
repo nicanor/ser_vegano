@@ -1,0 +1,11 @@
+<div class="col-md-4 col-sm-4">
+  <article class="entry">
+    <h2><%= link_to resource.title, resource_path(resource) %></h2>
+    <div class="bthumb2">
+      <%= link_to resource_path(resource) do %>
+        <%= image_tag resource.photo.thumb('294x294#').url, class: 'img-responsive' if resource.photo %>
+      <% end %>
+    </div>
+    <p><%= resource.description %></p>
+  </article>
+</div>

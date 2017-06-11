@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><%= render 'head' %></head>
+  <body>
+    <%= render 'banner' %>
+    <%= render 'navbar' %>
+
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <section class="blog">            
+              <%= flash_messages if flash %>
+              <%= yield %>                  
+            </section>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <%= render 'aside' %>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /content -->
+
+  <%= render 'footer' %>
+  <%= render 'analytics' %>
+  </body>
+</html>

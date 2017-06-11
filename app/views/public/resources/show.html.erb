@@ -1,0 +1,27 @@
+<h1><%= @resource.title %></h1>
+<hr />
+
+<% photo = @resource.photo %>
+
+<div class="row">
+  <% if photo %>
+    <div class="col-md-6 col-sm-6">
+      <%= image_tag photo.thumb('800x800').url, class: 'img-thumbnail thumbnail' %>
+    </div>
+  <% end %>
+
+  <div class="col-md-6 col-sm-6">
+
+    <dl class="image-description dl-horizontal">
+      <dt><%= t 'format' %></dt><dd><%= photo.format %></dd>
+      <dt><%= t 'width'  %></dt><dd><%= photo.width %></dd>
+      <dt><%= t 'height' %></dt><dd><%= photo.height %></dd>
+      <dt><%= t 'size'   %></dt><dd><%= number_to_human_size photo.size %></dd>
+    </dl>
+
+    <%= link_to t(:download), download_resource_path(@resource), class: 'btn btn-lg btn-success download', target: '_blank' %>
+
+    <%= textilize(@resource.content).html_safe if @resource.content %>    
+    <%= link_to t(:share), @resource.facebook_url, class: 'btn btn-lg btn-primary share', target: '_blank' if @resource.facebook_url.present? %>
+  </div>
+</div>

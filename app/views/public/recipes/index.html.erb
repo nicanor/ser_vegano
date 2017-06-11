@@ -1,0 +1,14 @@
+<section class="blog">
+  <h1><%= t :recipes %></h1>
+  <p class="lead"><%= t :recipes_explanation %> <%= link_to t(:visit_facebooK), facebook_url, target: '_blank' %></p>
+  <div class="bor"></div>
+
+  <section id="posts pblock">
+    <% @recipes.each_slice(3) do |row_of_recipes| %>
+      <div class="row">
+        <%= render partial: 'recipe', collection: row_of_recipes %>
+      </div>
+    <% end %>
+  </section>
+
+</section>

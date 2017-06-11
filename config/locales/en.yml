@@ -1,0 +1,71 @@
+en:
+  home:   'Home'
+  admin:  'Admin'
+  author: 'Nicanor Perera'
+  brand:  'To Be Vegan'
+  
+  created: 'Successfully created.'
+  updated: 'Successfully updated.'
+  deleted: 'Successfully deleted.'
+  failed:  'Action failed.'
+
+  not_found_html: '404<span class="color">!!!</span>'
+  error_med: "Oops!. The Page you were looking for doesn't exist!"
+  error_explanation: 'Please verify the URL is correct.'
+
+  edit:     'Edit'
+  delete:   'Delete'
+  download: 'Download File'
+  share:    'Share in Facebook'
+
+  confirm: '¿Are you sure?'
+  wait:    'Wait...'
+  
+  protected: 'Protected'
+
+  login:  'Login'
+  logout: 'Logout'
+  logged_in:  'Succesfully Logged In.'
+  logged_out: 'Succesfully Logged Out.'
+  login_required: 'Login Required.'
+  invalid_credentials: 'Invalid Credentials'
+
+  image:     'Image'
+  images:    'Images'
+  article:   'Article'
+  articles:  'Articles'
+  recipe:    'Recipe'
+  recipes:   'Recipes'
+  resource:  'Resource'
+  resources: 'Resources'
+  static:    'Page'
+  statics:   'Pages'
+  site:      'Site'
+  sites:     'Sites'
+
+  facebook: 'Facebook:'
+  info:     'Info:'
+
+  abolitionist: 'abolitionistapproach.com'
+
+  recipes_explanation:   'La comida vegana se caracteriza por ser fácil de preparar, rápida, económica, saludable y deliciosa. Y lo más importante, libre de uso animal.'
+  resources_explanation: 'Lo más importante que podemos hacer por los animales es ser veganos y educar a otros sobre el veganismo de forma creativa y no violenta.'
+  visit_facebooK: 'Visit To Be Vegan on Facebook'
+
+  last_articles: 'Last Articles'
+  last_recipes:  'Last Recipes'
+
+  about: 'About'
+  read_more: 'Read More'
+
+  footer_html: 'Website created and maintained by Nicanor Perera. Published in Spanish in July 2013.'
+
+  helpers:
+    submit:
+      create: 'Create'
+      update: 'Update'
+
+  simple_form:
+    required:
+      text: 'required'
+      mark: '*'

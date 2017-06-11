@@ -1,0 +1,110 @@
+<section class="hero">
+Ser vegano es muy fácil. Si estás haciendote vegano, significa que estas discontinuando el consumo de productos animales, incluyendo lo que comés, vestís y usás. El contenido siguiente está basado en la página <a href="http://abolitionistvegansociety.org/tavs-initiatives/tavs-articles/how-to-go-vegan/" target="_blank">¿Cómo ser vegano?</a> de La Sociedad Vegana Abolicionista.
+</section>
+         
+<div class="row">
+<div class="col-md-8">
+<div class="review">
+                  
+h4. Comida
+
+Las comidas de origen animal no son necesarias para una óptima salud. Los veganos se nutren exclusivamente de plantas y no extrañan sabor, textura ni variedad. Al contrario, muchos veganos comentan cuanto más sabor, textura y variedad disfrutan luego de hacerse veganos.
+                                  
+<div class="clearfix"></div>
+<hr />
+                  
+<div class="rgood">
+
+h5. <i class="fa fa-thumbs-up"></i> Los veganos comen
+
+* <i class="fa fa-angle-right"></i> Frutas
+* <i class="fa fa-angle-right"></i> Frutos secos (nueces, almendras, etc)
+* <i class="fa fa-angle-right"></i> Granos (arroz, avena, trigo, etc)
+* <i class="fa fa-angle-right"></i> Legumbres (porotos, lentejas, etc)
+* <i class="fa fa-angle-right"></i> Semillas
+* <i class="fa fa-angle-right"></i> Vegetales
+
+</div>
+                  
+<div class="rbad">
+
+h5. <i class="fa fa-thumbs-down"></i> Los veganos NO comen
+
+* <i class="fa fa-angle-right"></i> Carne (de vaca, pollo, pescado, etc)
+* <i class="fa fa-angle-right"></i> Huevos
+* <i class="fa fa-angle-right"></i> Lacteos (leche, queso, manteca, etc)
+* <i class="fa fa-angle-right"></i> Miel
+* <i class="fa fa-angle-right"></i> Otros ingredientes animales
+* <i class="fa fa-angle-right"></i> Otros subproductos animales
+                       
+</div>
+
+<div class="clearfix"></div>
+<hr />
+
+h4. Vestimenta
+
+Además de no consumir productos animales en su alimentación, los veganos no visten o usan productos animales.
+
+<div class="clearfix"></div>            
+<hr />
+                  
+<div class="rgood">
+
+h5. <i class="fa fa-thumbs-up"></i> Los veganos visten
+
+* <i class="fa fa-angle-right"></i> Algodón
+* <i class="fa fa-angle-right"></i> Microfibra
+* <i class="fa fa-angle-right"></i> Nylon
+* <i class="fa fa-angle-right"></i> Poliester
+* <i class="fa fa-angle-right"></i> Sintéticos y no derivados de animales
+
+</div>
+                  
+<div class="rbad">
+
+h5. <i class="fa fa-thumbs-down"></i> Los veganos NO visten
+
+* <i class="fa fa-angle-right"></i> Lana
+* <i class="fa fa-angle-right"></i> Pieles (incluyendo cuero)
+* <i class="fa fa-angle-right"></i> Seda
+* <i class="fa fa-angle-right"></i> Plumas
+* <i class="fa fa-angle-right"></i> Otros productos animales
+
+</div>
+
+<div class="clearfix"></div>   
+<hr />
+
+h4. Otros usos
+
+Los veganos no utilizan productos de origen animal siempre que puedan evitarlo. Por ejemplo, si un vegano se compra un auto nuevo, elegiría asientos de tela en lugar de asientos de cuero.
+
+Los veganos también rechazan el uso de animales para deporte, entretenimiento (circos con animales, zoológicos, acuarios, corridas de toros, etc) y para experimentación animal.
+
+Recordá que ser vegano no es acerca de no comer ésto o no vestir aquello. Ser vegano es acerca de la no-violencia en acción.
+
+<hr />
+
+h4. ¿Cómo hacerme vegano?
+
+Algunas personas eligen hacerse veganas inmediatamente y nunca más ponen otro producto animal en su boca o en su cuerpo. Otras personas eligen ser veganas de a pasos, o comenzar haciendose vegetariana. No recomendamos hacerse vegano en pasos (disminuir la participación en la explotación animal gradualmente), pero si estás comprometido a hacerte vegano, está bien. Tampoco recomendamos hacerse vegano adoptando primero una dieta vegetariana.
+
+Nuestra recomendación es hacerse vegano inmediatamente y nunca volver a comprar ningún producto de origen animal. Es mucho más fácil de lo que la mayoría piensa. Podés hacerte vegano inmediatamente. Después de todo, si has decidido que no querés seguir participando en la explotación animal, ¿por qué continuar haciéndolo?
+
+</div> <!-- review -->
+</div> <!-- col-md-8 -->
+
+<div class="col-md-4">
+<div class="rbox">
+
+h4. No es una limitación
+
+El veganismo no es una limitación en ningún sentido. Al contrario, es una expansión de tu compromiso con la no-violencia. Al ser vegano obtenés la paz dentro de vos mismo que viene al adoptar la no-violencia y al rechazar la participación de la explotación del vulnerable.
+
+<div class="button"><a href="/por-que-ser-veganos"> <i class="fa fa-heart"></i> ¿Por qué ser veganos?</a></div>
+
+</div> <!-- rbox -->
+</div> <!-- col-md-4 -->
+
+</div> <!-- row -->

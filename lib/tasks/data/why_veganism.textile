@@ -1,0 +1,41 @@
+<section class="hero">
+
+Veganismo significa que no comés ningún producto animal (carne, lácteos, huevos, miel). Significa que no vestís cuero u otras pieles, lana, plumas, seda u otras fibras animales, y que no usás productos que contienen subproductos de origen animal. Ser vegano es algo que todos podemos hacer ahora mismo. Simplemente podemos hacerlo. Está completamente bajo nuestro control.
+
+</section> <!-- hero -->
+
+<div class="row">
+<div class="col-md-8">
+<section class="support-page">
+
+h2. ¿Pensás que está mal provocar sufrimiento y muertes a los animales sin una buena razón para hacerlo?
+
+*Por supuesto que lo pensás*
+
+El problema es que al menos el 99.99% del uso de los animales, que resulta en su sufrimiento y muerte, es totalmente innecesario. La mayor parte de ese uso es por comidas, pero los humanos pueden tomar fácilmente toda su nutrición de las plantas. 
+            
+<section class="test">
+
+"Es la posición de la Asociación Dietetica Americana que dietas vegetarianas apropiadamente planeadas, incluyendo totalmente vegetarianas y *veganas, son saludables, nutricionalmente adecuadas y pueden proveer beneficios de salud en la prevención y tratamiento de ciertas enfermedades*. Dietas vegetarianas bien planeadas son apropiadas para individuos durante todas las etapas de su ciclo de vida, incluyendo embarazo, lactancia, infancia, niñez, y adolescencia, y para atletas."
+
+</section>
+
+<div class="test-arrow"></div>
+<div class="tauth">Academy of Nutrition and Dietetics, <span class="color"><a href="http://www.eatright.org/" target="_blank">American Dietetic Association</a></span></div>
+<div class="clearfix"></div>
+
+Asesinamos *110 mil millones de animales por año*. Y como podrás imaginar, el proceso de transformar seres sintientes en "productos" es horriblemente violento,
+
+Muchas personas creen que la manera de respetar a los animales es adoptar una dieta vegetariana, porque piensan que los animales utilizados por las industrias del huevo y de los lácteos no son asesinados. O piensan que deben comprar productos animales producidos "humanamente". Ambos son errores de concepción porque continúan causando sufrimiento y muertes innecesarias.
+
+Si podemos vivir vidas felices y saludables sin explotar a los animales... ¿Por qué no hacerlo?
+Ánimos!. Es muy fácil. <a href="/como_ser_vegano">Enterate cómo</a>.
+
+</section>
+</div>  <!-- col-md-8 -->
+
+<div class="col-md-4">
+  <div class="scontact">[animal-counter]</div>
+</div>
+
+</div>  <!-- row -->

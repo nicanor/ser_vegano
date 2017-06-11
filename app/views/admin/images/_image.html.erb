@@ -1,0 +1,5 @@
+<%= link_to [:admin, image], class: 'list-group-item' do %>
+  <%= image_tag image.file.thumb('32x32#').url if image.file %>
+  <%= image.title %>
+  <span class="badge"><%= image.slug %></span>  
+<% end %>

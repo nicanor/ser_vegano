@@ -1,0 +1,10 @@
+<h1><%= t :articles %></h1>
+<div class="bor"></div>
+
+<section id="posts pblock">
+  <% @articles.each_slice(2) do |articles_for_row| %>
+    <div class="row">
+      <%= render partial: 'article', collection: articles_for_row %>
+    </div>
+  <% end %>
+</section>

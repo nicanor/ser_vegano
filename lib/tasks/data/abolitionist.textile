@@ -1,0 +1,122 @@
+<section class="hero">
+
+Este sitio promueve el <strong>enfoque Abolicionista a los Derechos de los Animales</strong>. Si querés conoceer más sobre este enfoque, visitá el sitio web del <em>Profesor Gary L. Francione</em> <a href="http://abolitionistapproach.com" target="_blank">AbolitionistApproach.com</a>. Este enfoque a los derechos de los animales cumple las siguientes características:
+
+</section>
+      
+<div class="row">
+
+<div class="col-md-3 col-sm-6">
+  <div class="afeature">
+    <div class="afmatter">
+      <i class="fa fa-user"></i>
+      <p>*Promueve la abolición* de la explotación animal y *rechaza la regulación* de la explotación animal.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+  <div class="afeature">
+    <div class="afmatter">
+      <i class="fa fa-heart"></i>
+      <p>Está *basado sólo en la sintiencia* del animal y en ninguna otra característica cognitiva.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+  <div class="afeature">
+    <div class="afmatter">
+      <i class="fa fa-paw"></i>
+      <p>Toma al *veganismo como base moral* en su posición con respecto a los derechos de los animales.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+  <div class="afeature">
+    <div class="afmatter">
+      <i class="fa fa-gift"></i>
+      <p>*Rechaza la violencia* y promueve activismo en forma de educación vegana no violenta y creativa.</p>
+    </div>
+  </div>
+</div>
+  
+</div> <!-- row -->
+ 
+<div class="bor"></div>
+
+<div class="timeline">
+
+h2. Los Seis Principios <small>del enfoque Abolicionista de los Derechos de los Animales</small>
+
+<div class="row">
+<div class="col-md-7 col-sm-7">
+
+<article class="time">
+  <div class="tidate">1</div>
+  <div class="timatter">
+    El enfoque abolicionista a los derechos animales mantiene que todos los seres sintientes, humanos y no humanos, tienen un derecho: el derecho básico de no ser tratado como la propiedad de otros.
+  </div>
+  <div class="clearfix"></div>
+</article>
+
+<article class="time">
+  <div class="tidate">2</div>
+  <div class="timatter">
+    <p>Nuestro reconocimiento de ese derecho básico significa que debemos abolir, y no meramente regular, la explotación animal institucionalizada-porque asume que los animales son la propiedad de los humanos.</p>
+  </div>
+  <div class="clearfix"></div>
+</article>
+
+<article class="time">
+  <div class="tidate">3</div>
+  <div class="timatter">
+    <p>De la misma forma en que rechazamos el racismo, el sexismo, la discriminación por edad y el heterosexismo, rechazamos el especismo. La especie de un ser sintiente no es más razón para denegar la protección de este derecho básico que la raza, sexo, edad u orientación sexual es razón para denegar pertenencia a la comunidad moral humana a otros humanos.</p>
+  </div>
+  <div class="clearfix"></div>
+</article>
+
+<article class="time">
+  <div class="tidate">4</div>
+  <div class="timatter">
+    <p>Reconocemos que no vamos a abolir de un día a otro el estatus de propiedad de los no-humanos, pero sólo apoyaremos aquellas campañas y posiciones que explícitamente promuevan la agenda abolicionista. No apoyaremos posiciones que requieran supuestamente "mejorada" regulación de la explotación animal. Rechazamos cualquier campaña que promueva sexismo, racismo, heterosexismo u otras formas de discriminación hacia los humanos.</p>
+  </div>
+  <div class="clearfix"></div>
+</article>
+
+<article class="time">
+  <div class="tidate">5</div>
+  <div class="timatter">
+    <p>Reconocemos que el paso más importante que alguno de nosotros puede tomar hacia la abolición es adoptar un estilo de vida vegano y educar a otros acerca del veganismo. El veganismo es el principio de la abolición aplicado a la vida personal de uno, y el consumo de cualquier carne, ave, pescado, huevo o lacteo, o la vestimenta o uso de productos animales, es inconsistente con la perspectiva abolicionista.</p>
+  </div>
+  <div class="clearfix"></div>
+</article>
+
+<article class="time">
+  <div class="tidate">6</div>
+  <div class="timatter">
+    <p>Reconocemos el principio de no-violencia como el principio que guía al movimiento de derechos animales. La violencia es el problema; no es ninguna parte de la solución.</p>
+  </div>
+  <div class="clearfix"></div>
+</article>
+
+</div> <!-- col-md-7 col-sm-7 -->
+<div class="col-md-5 col-sm-5">
+
+<aside class="rbox">
+
+h4. Una nota:
+
+Para adherir al enfoque abolicionista de los derechos animales, no es necesario ser espiritual o religioso, o ser ateo. Podés ser una persona espiritual o religiosa, o podés ser ateo, o cualquier cosa en el medio. No importa.
+
+h5. Lo que importa es:
+
+# que tengas preocupación moral acerca de los animales y que quieras hacer lo correcto por los animales. Esta procupación o impulso moral puede provenir de cualquier fuente, espiritual o no espiritual, y
+# que tomes como válidos los argumentos lógicos de que nuestra preocupación moral no debe estar limitada a algunos no-humanos, sino que debe ser extendida a todos los seres sintientes y que debemos abolir, y no regular, la explotación animal.
+
+</aside>
+
+</div> <!-- col-md-5 col-sm-5 -->
+</div> <!-- row -->
+</div> <!-- timeline -->

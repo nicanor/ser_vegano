@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require font-awesome
+ *= require bootstrap
+ *= require style
+ *= require slider
+ *= require green
+ *= require_self
+ */
+
+a.da-link {
+  min-width: 100px;
+  width: 100px;
+}
+
+.pager > li.previous > a:before {
+   font-family: FontAwesome;
+   padding-right:1em;
+   content: "\f137"; /* chevron-circle-left  */
+}
+
+.pager > li.next > a:after {
+   font-family: FontAwesome;
+   padding-left:1em;
+   content: "\f138"; /* chevron-circle-right  */
+}
+
+header.admin {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.home-posts > .row > a:hover {
+  text-decoration: none;
+}
+
+.home-posts > .row > a p,
+.home-posts > .row > a:hover p {
+  color: #666;
+}
+
+.home-posts a div.rdetails {
+  height: 120px;
+  overflow: hidden;
+}
+
+.home-recipes {
+  a p {color: #666;}
+  .afmatter {
+    padding-top: 8px;
+    a { display: none;}
+    i { padding-top: 20px; }
+    &:hover {
+      img {display: none;}
+      a {
+        display: inherit;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+a.download:before,
+a.share:before,
+article.recipe li:before,
+.contador li:before {  
+  font-family: FontAwesome;
+  padding-right:0.5em;
+}
+
+a.download:before { content: "\f019"; } // share icon
+a.share:before    { content: "\f082"; } // facebook-square
+
+
+article.recipe > h1 {
+  color: #46c82d;
+}
+.contador li:before,
+article.recipe li:before {
+  color: #46c82d;
+  content: "\f138"; /* chevron-circle-right  */
+}
+
+article.article > .content {
+  padding-top: 1.2em;
+  font-size: 1.2em;
+}
+
+.image-description {
+  dt {
+    width: 80px;
+    text-align: left;
+  }
+  dd {margin-left: 0px;}
+}
+
+.pager li > a {
+  background-color: #46c82d;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+  background-color: #449d44;
+}

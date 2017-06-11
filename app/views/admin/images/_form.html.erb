@@ -1,0 +1,11 @@
+<%= custom_form_for [:admin, @image] do |f| %>
+  <%= f.input :title, autofocus: true %>
+  <%= f.input :slug if @image.id %>
+
+  <%= f.input :file do %>
+    <%= image_tag @image.file.thumb('400x200#').url, class: :thumbnail if @image.file %>
+    <%= f.file_field :file %>
+  <% end %>
+  
+  <%= f.button :submit, name: nil, data: {disable_with: t(:wait)}, class: 'btn btn-primary' %>
+<% end %>

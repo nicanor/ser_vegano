@@ -1,0 +1,55 @@
+<div id="da-slider" class="da-slider">
+  <% @static_pages.each do |page| %>
+    <div class="da-slide">
+      <h2><%= page.title %></h2>
+      <p><%= page.description %></p>
+      <%= link_to t(:read_more), static_page_path(page), class: 'da-link' %>
+      <div class="da-img"><%= image_tag page.photo.thumb('300x300').url if page.photo %></div>
+    </div>
+  <% end %>
+  <nav class="da-arrows">
+    <span class="da-arrows-prev"></span>
+    <span class="da-arrows-next"></span>
+  </nav>
+</div>
+
+<div class="rposts home-posts">
+  <h4><%= t :last_articles %></h4>
+  <div class="row">
+    <% @last_articles.each do |article| %>
+      <%= link_to article_path(article), class: 'col-md-3 col-sm-6 col-xs-12' do %>
+        <div class="rpost1">
+
+          <div class="rimg"><%= image_tag article.photo.thumb('240x100#').url, class: 'img-responsive' if article.photo.present? %></div>
+
+          <div class="rdetails">
+            <h5><%= article.title %></h5>
+            <p><%= article.description %></p>
+          </div>
+
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
+
+<div class="row home-recipes">
+  <h4><%= t :last_recipes %></h4>
+  <% @last_recipes.each do |recipe| %>
+    <div class="col-md-3 col-sm-6">
+      <div class="afeature">
+        <div class="afmatter">
+          <%= image_tag recipe.photo.thumb('160x160#').url, class: 'img-responsive img-circle' %>
+
+          <%= link_to recipe_path(recipe) do %>
+            <i class="fa fa-cutlery"></i>
+
+            <h3><%= recipe.title %></h3>
+          <% end %>
+
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

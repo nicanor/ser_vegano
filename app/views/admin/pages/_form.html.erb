@@ -1,0 +1,26 @@
+<%= custom_form_for [:admin, @page] do |f| %>
+  <%= f.input :page_type, as: :hidden %>
+
+  <div class="row">
+    <div class="col-md-6"><%= f.input :title, autofocus: true %></div>
+    <div class="col-md-6"><%= f.input :publication_date, as: :string, placeholder: Date.today.to_s %></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6"><%= f.input :old_slug unless @page.protected? %></div>
+    <div class="col-md-6"><%= f.input :slug, disabled: @page.protected? if @page.id %> </div>
+  </div>
+
+  <%= f.input :facebook_url %>
+
+  <%= f.input :photo do %>
+    <%= image_tag @page.photo.thumb('100x200').url, class: :thumbnail if @page.photo %>
+    <%= f.file_field :photo %>
+  <% end %>
+
+  <%= f.input :description, disabled: @page.protected? %>
+  <%= f.input :content, disabled: @page.protected?, input_html: { class: 'form-control monospaced-field'} %>
+  <%= f.input :protected %>
+  <%= f.input :public %>
+  <%= f.button :submit, name: nil, data: {disable_with: t(:wait)}, class: 'btn btn-primary' %>
+<% end %>

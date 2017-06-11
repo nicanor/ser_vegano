@@ -1,0 +1,14 @@
+<aside class="sidebar">
+  <section class="widget">
+    <h4><%= t :articles%></h4>
+    <ul>
+      <% @articles.each do |article| %>
+        <li><%= icon 'chevron-circle-right' %> <%= link_to article.title, article_path(article) %></li>
+      <% end %>
+    </ul>
+  </section>
+  <section class="widget">
+    <h4><%= t :about %> <%= link_to t(:brand), root_path %></h4>
+    <p><%= site.description %></p>
+  </section>
+</aside>

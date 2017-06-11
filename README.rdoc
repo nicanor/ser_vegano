@@ -1,0 +1,19 @@
+== Ser Vegano website
+
+http://servegano.com
+
+Animal rights advocacy website, created and managed by Nicanor Perera.
+
+I'm sharing the code, because I think some other developers can find it useful.
+
+Some features of this website:
+
+* Ruby 2.1.2
+
+* Rails 4.1.8
+
+* CMS of pages, with different types of pages
+
+* Uses RedCloth for markup, with a twist so that you can use images you upload.
+
+* Postgresql as database

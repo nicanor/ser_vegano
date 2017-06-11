@@ -1,0 +1,29 @@
+<header class="page-header">
+  <h1><%= icon :cogs %> <%= t :admin %></h1>
+</header>
+
+
+<h2><%= t :current_site %>: <small><%= site.name %></small></h2>
+
+<div class="row">
+<div class="col-md-3">
+  <ul class="list-group">
+    <li class="list-group-item"><span class="badge"><%= @page_count     %></span> <%= icon :book  %>  <%= t :static_pages %></li>
+    <li class="list-group-item"><span class="badge"><%= @article_count  %></span> <%= icon 'file-text'  %> <%= t :articles %></li>
+    <li class="list-group-item"><span class="badge"><%= @recipe_count   %></span> <%= icon :cutlery  %> <%= t :recipes %></li>
+    <li class="list-group-item"><span class="badge"><%= @resource_count %></span> <%= icon 'file-o'  %> <%= t :resources %></li>
+    <li class="list-group-item"><span class="badge"><%= @image_count    %></span> <%= icon :image %> <%= t :images %></li>
+  </ul>
+</div>
+</div>
+
+<header class="page-header">
+  <%= link_to icon(:plus), '#collapse-new', data: {toggle: :collapse}, class: 'btn btn-primary pull-right' %>
+  <h1><%= icon :cloud %> <%= t :sites %></h1>
+</header>
+
+<section id="collapse-new" class="mini-form collapse out">
+  <%= content_tag :section, render('admin/sites/form'), class: 'well' %>
+</section>
+
+<%= render @sites %>

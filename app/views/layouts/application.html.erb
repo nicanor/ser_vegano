@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><%= render 'head' %></head>
+  <body>
+    <%= render 'banner' %>
+    <%= render 'navbar' %>
+
+    <div class="content">
+      <div class="container">
+        <%= flash_messages if flash %>
+        <%= yield %>
+      </div>
+    </div> <!-- /content -->
+
+  <%= render 'footer' %>
+  <%= render 'analytics' %>
+  </body>
+</html>

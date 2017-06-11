@@ -1,0 +1,20 @@
+  <article class="article entry">
+  <h1><%= @article.title %></h1>
+  
+  <aside class="meta">
+    <%= icon :calendar %> <%= l @article.publication_date.to_date if @article.publication_date %>
+    <%= icon     :user %> <%= t :author %>
+  </aside>
+  
+  <%= content_tag :section, image_tag(@article.photo.thumb('640x').url, class: 'img-responsive'), class: :bthumg if @article.photo %>
+
+  <% if @article.content.present? %>
+  	<section class="content"><%= textilize(compile_images(@article.content)).html_safe %></section>
+  <% end %>
+
+</article>
+
+<ul class="pager">
+  <li class="previous"><%= link_to @prev.title, article_path(@prev) if @prev %></li>
+  <li class="next"    ><%= link_to @next.title, article_path(@next) if @next %></li>
+</ul>

@@ -1,0 +1,258 @@
+es:
+  admin:  'Administración'
+  author: 'Nicanor Perera'
+  brand:  'Ser Vegano'
+  home:   'Inicio'
+  current_site: 'Sitio actual'
+
+  created: 'Creado con éxito.'
+  updated: 'Actualizado con éxito.'
+  deleted: 'Eliminado con éxito.'
+  failed:  'La acción falló.'
+
+  not_found_html: '404<span class="color">!!!</span>'
+  error_med: 'Oops!. La página no existe!'
+  error_explanation: 'Por favor verificá que la URL sea correcta. Si llegaste a esta página por un link roto, por favor avisanos a través de un mensaje privado por nuestra página de facebook.'
+
+  edit:     'Editar'
+  delete:   'Eliminar'
+  download: 'Descargar Archivo'
+  share:    'Compartir por Facebook'
+  preview:  'Vista previa'
+
+  confirm: '¿Está seguro?'
+  wait:    'Espere...'
+
+  protected: 'Página protegida'
+
+  login:  'Iniciar Sesión'
+  logout: 'Cerrar Sesión'
+  logged_in:  'Inició Sesión Exitosamente.'
+  logged_out: 'Abandonó Sesión Exitosamente.'
+  login_required: 'Debe iniciar Sesión.'
+  invalid_credentials: 'Correo electrónico o Contraseña inválidos.'
+
+  image:     'Imagen'
+  images:    'Imágenes'
+  article:   'Artículo'
+  articles:  'Artículos'
+  recipe:    'Receta'
+  recipes:   'Recetas'
+  resource:  'Recurso'
+  resources: 'Recursos'
+  static:    'Página'
+  statics:   'Páginas'
+  site:      'Sitio'
+  sites:     'Sitios'
+
+  facebook: 'Facebook:'
+  info:     'Info:'
+
+  abolitionist: 'abolitionistapproach.com'
+
+  recipes_explanation: 'La comida vegana se caracteriza por ser fácil de preparar, rápida, económica, saludable y deliciosa. Y lo más importante, libre de explotación animal.'
+  resources_explanation: 'Lo más importante que podemos hacer por los animales es ser veganos y educar a otros sobre el veganismo de forma creativa y no violenta.'
+  visit_facebooK: 'Visitanos en Facebook'
+
+  last_articles: 'Últimos artículos'
+  last_recipes:  'Últimas recetas'
+
+  about: 'Acerca de'
+  read_more: 'Leer más'
+
+  footer_html: 'Sitio web creado y mantenido por Nicanor Perera. Publicado en Julio de 2013.'
+
+  format: 'Formato'
+  size:   'Tamaño'
+  height: 'Alto'
+  width:  'Ancho'
+
+  helpers:
+    submit:
+      create: 'Crear'
+      update: 'Actualizar'
+
+  simple_form:
+    required:
+      text: 'requerido'
+      mark: '*'
+
+    labels:
+      publication_date: 'Fecha de Publicación'
+
+
+  date:
+    order:
+      - :day
+      - :month
+      - :year
+    abbr_day_names:
+      - dom
+      - lun
+      - mar
+      - mié
+      - jue
+      - vie
+      - sáb
+    abbr_month_names:
+      - ~
+      - ene
+      - feb
+      - mar
+      - abr
+      - may
+      - jun
+      - jul
+      - ago
+      - sep
+      - oct
+      - nov
+      - dic
+    day_names:
+      - domingo
+      - lunes
+      - martes
+      - miércoles
+      - jueves
+      - viernes
+      - sábado
+    month_names:
+      - ~
+      - enero
+      - febrero
+      - marzo
+      - abril
+      - mayo
+      - junio
+      - julio
+      - agosto
+      - septiembre
+      - octubre
+      - noviembre
+      - diciembre
+    formats:
+      short: "%d de %b"
+      default: "%d/%m/%Y"
+      long: "%A, %d de %B de %Y"
+  time:
+    formats:
+      short: "%d de %b a las %H:%M hrs"
+      default: "%d/%m/%Y %H:%M:%S"
+      long: "%A, %d de %B de %Y a las %I:%M %p"
+      estandar: "%B %d, %Y a las %H:%M"
+    am: "am"
+    pm: "pm"
+
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " y "
+      last_word_connector: " y "
+
+    select:
+      prompt: "Por favor selecciona"
+
+  datetime:
+    distance_in_words:
+      half_a_minute: "medio minuto"
+      less_than_x_seconds:
+        one: "menos de 1 segundo"
+        other: "menos de %{count} segundos"
+      x_seconds:
+        one: "1 segundo"
+        other: "%{count} segundos"
+      less_than_x_minutes:
+        one: "menos de 1 minuto"
+        other: "menos de %{count} minutos"
+      x_minutes:
+        one: "1 minuto"
+        other: "%{count} minutos"
+      about_x_hours:
+        one: "cerca de 1 hora"
+        other: "cerca de %{count} horas"
+      x_days:
+        one: "1 día"
+        other: "%{count} días"
+      about_x_months:
+        one: "cerca de 1 mes"
+        other: "cerca de %{count} meses"
+      x_months:
+        one: "1 mes"
+        other: "%{count} meses"
+      about_x_years:
+        other: "cerca de %{count} años"
+        one: "cerca de 1 año"
+      over_x_years:
+        one: "más de 1 año"
+        other: "más de %{count} años"
+      almost_x_years:
+        one:   "casi 1 año"
+        other: "casi %{count} años"
+    prompts:
+      year: 'Año'
+      month: 'Mes'
+      day: 'Día'
+      hour: 'Hora'
+      minute: 'Minuto'
+      second: 'Segundos'
+
+  helpers:
+    select:
+      prompt: "Por favor selecciona"
+
+    submit:
+      usuario_session:
+        create: "Iniciar sesión"
+      usuario:
+        create: "Registrarse"
+        update: "Modificar"
+      comercio:
+        update: "Guardar cambios"
+      comentario:
+        create: "Comentar"
+      consulta:
+        create: "Enviar"
+      search:
+        create: "Buscar"
+      create: 'Crear %{model}'
+      update: 'Guardar cambios'
+      submit: 'Guardar %{model}'
+
+  errors:
+    message: "Se han encontrado errores en algunos campos. Por favor revise."
+    format: "%{attribute} %{message}"
+
+    messages: &errors_messages
+      inclusion: "no está incluído en la lista"
+      exclusion: "está reservado"
+      invalid: "es inválido"
+      confirmation: "no coincide con la confirmación"
+      blank: "no puede estar en blanco"
+      empty: "no puede estar vacío"
+      not_a_number: "no es un número"
+      not_an_integer: "debe ser un entero"
+      less_than: "debe ser menor que %{count}"
+      less_than_or_equal_to: "debe ser menor o igual que %{count}"
+      greater_than: "debe ser mayor que %{count}"
+      greater_than_or_equal_to: "debe ser mayor o igual que %{count}"
+      too_short:
+        one: "es demasiado corto (mínimo 1 caracter)"
+        other: "es demasiado corto (mínimo %{count} caracteres)"
+      too_long:
+        one: "es demasiado largo (máximo 1 caracter)"
+        other: "es demasiado largo (máximo %{count} caracteres)"
+      equal_to: "debe ser igual a %{count}"
+      wrong_length:
+        one: "longitud errónea (debe ser de 1 caracter)"
+        other: "longitud errónea (debe ser de %{count} caracteres)"
+      accepted: "debe ser aceptado"
+      even: "debe ser un número par"
+      odd: "debe ser un número non"
+      taken: "ya ha sido tomado"
+      record_invalid: "La validación falló: %{errors}"
+      telefono_o_email: "Por favor ingrese un teléfono o un correo electrónico"
+    template: &errors_template
+      header:
+        one: "%{model} no pudo guardarse debido a 1 error"
+        other: "%{model} no pudo guardarse debido a %{count} errores"
+      body: "Revise que los siguientes campos sean válidos:"

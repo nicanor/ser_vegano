@@ -1,0 +1,19 @@
+<div class="col-md-4 col-sm-4">
+  <article class="entry">
+
+    <h2><%= link_to recipe.title, recipe_path(recipe) %></h2>
+
+    <div class="bthumb2">
+      <%= link_to recipe_path(recipe) do %>
+        <%= image_tag recipe.photo.thumb('294x294#').url, class: 'img-responsive' if recipe.photo %>
+      <% end %>
+    </div>
+
+    <p><%= recipe.description %></p>
+
+    <%= link_to recipe.facebook_url, class: 'btn btn-block btn-primary', target: '_blank' do %>
+      <%= icon 'facebook-square' %> <%= t :share %>
+    <% end %>
+
+  </article>
+</div>

@@ -1,0 +1,12 @@
+<header class="page-header">
+  <%= link_to icon(:plus), '#collapse-new', data: {toggle: :collapse}, class: 'btn btn-primary pull-right' %>
+  <h1><%= icon :image %> <%= t :images %></h1>
+</header>
+
+<section id="collapse-new" class="mini-form collapse out">
+  <%= content_tag :section, render('form'), class: 'well' %>
+</section>
+
+<section class="list-group">
+  <%= render @images %>
+</section>

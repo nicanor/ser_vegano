@@ -1,0 +1,6 @@
+<header class="page-header">
+  <%= link_to t(:delete), [:admin,  @image], method: :delete, data: {confirm: t(:confirm)}, class: 'btn btn-danger pull-right' %>
+  <h1><%= icon :image %> <%= @image.title %></h1>
+</header>
+
+<%= render 'form' %>

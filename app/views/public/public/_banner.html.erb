@@ -1,0 +1,36 @@
+<header>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 col-sm-4">
+        <section class="logo">
+          <h1>
+            <%= link_to root_path do %>
+              <%= icon :'chevron-circle-right', class: 'color' %> <%= t :brand %><span class="color">.</span>
+            <% end %>
+          </h1>
+        </section>
+      </div>
+
+      <div class="col-md-4 col-sm-4 col-sm-offset-4 col-md-offset-4">
+        <section class="list">
+          <%= content_tag :div do %>
+            <%= icon 'facebook-square fa-fw' %> <%= t :facebook %>
+            <%= link_to "servegano.com.ar", facebook_url, target: '_blank' %>
+          <% end %>
+          <hr />
+          <%= content_tag :div do %>
+            <%= icon 'info-circle fa-fw' %> <%= t :info %>
+            <%= link_to t(:brand), root_path %>
+          <% end %>
+          <hr />
+          <%= content_tag :div do %>
+            <%= icon 'envelope fa-fw' %> <%= t :email %>
+            <%= mail_to 'nicanorperera@gmail.com' %>
+          <% end %>
+        </section>
+      </div>
+      
+    </div>
+  </div>
+</header>

@@ -1,0 +1,44 @@
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <section class="widget">
+          <h4><%= t :about %></h4>
+          <p><%= site.description %></p>
+          <section class="social">
+            <%= link_to icon('facebook facebook')   , facebook_url, target: '_blank' %>
+            <%= link_to icon('google-plus google-plus'), google_plus_url, target: '_blank' %>
+          </section>
+        </section>
+      </div>
+
+      <div class="col-md-4">
+        <section class="widget">
+          <h4><%= t :last_articles %></h4>
+          <ul>
+            <% @last_articles.each do |article| %>
+              <li><%= icon 'angle-right' %> <%= link_to article.title, article_path(article) %></li>
+            <% end %>
+          </ul>
+        </section>
+      </div>
+
+      <div class="col-md-4">
+        <section class="widget">
+          <h4><%= t :last_recipes %></h4>
+          <ul>
+            <% @last_recipes.each do |recipe| %>
+              <li><%= icon 'angle-right' %> <%= link_to recipe.title, recipe_path(recipe) %></li>
+            <% end %>
+          </ul>
+        </section>
+      </div>
+
+    </div>  <!-- row -->
+    <hr />
+    <%= t :footer_html %>
+  </div>
+</footer>
+
+<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span>        
