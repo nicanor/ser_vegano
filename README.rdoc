@@ -4,6 +4,8 @@ http://servegano.com
 
 Animal rights advocacy website, created and managed by Nicanor Perera.
 
+I deleted some config files with passwords and stuff, so it may not work.
+
 I'm sharing the code, because I think some other developers can find it useful.
 
 Some features of this website:
